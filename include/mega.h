@@ -73,8 +73,6 @@
 #include "mega/thread/cppthread.h"
 
 #include "megawaiter.h"
-#include "meganet.h"
-#include "megafs.h"
 #include "megaconsole.h"
 #include "megaconsolewaiter.h"
 

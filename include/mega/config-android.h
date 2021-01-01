@@ -148,7 +148,7 @@
 #define USE_OPENSSL 1
 
 /* Define to use SQLite */
-#define USE_SQLITE 1
+/* #undef USE_SQLITE */
 
 #define USE_PTHREAD 1
 /* Version number of package */

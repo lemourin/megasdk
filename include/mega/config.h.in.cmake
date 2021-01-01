@@ -220,7 +220,7 @@
 #define USE_SODIUM 1
 
 /* Define to use SQLite */
-#define USE_SQLITE 1
+#cmakedefine USE_SQLITE
 
 /* Enable extensions on AIX 3, Interix.  */
 #ifndef _ALL_SOURCE

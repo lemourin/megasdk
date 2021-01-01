@@ -112,7 +112,6 @@
 
 #include <sys/select.h>
 
-#include <curl/curl.h>
 #include <stdexcept>
 
 #ifndef FD_COPY
