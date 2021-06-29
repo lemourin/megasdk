@@ -130,6 +130,11 @@ ELSE(WIN32)
     SET(Mega_PlatformSpecificIncludes ${MegaDir}/include/mega/posix)
     SET(Mega_PlatformSpecificLibs crypto dl)
 
+    IF(APPLE)
+        SET(Mega_PlatformSpecificFiles ${Mega_PlatformSpecificFiles} ${MegaDir}/src/osx/osxutils.mm)
+        SET(Mega_PlatformSpecificLibs ${Mega_PlatformSpecificLibs} "-framework CoreFoundation" "-framework Foundation")
+    ENDIF()
+
 ENDIF(WIN32)
 
 include(CheckIncludeFile)

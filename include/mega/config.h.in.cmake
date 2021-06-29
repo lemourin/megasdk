@@ -196,7 +196,7 @@
 #define USE_DB 0
 
 /* Use inotify API */
-#define USE_INOTIFY 1
+/* #undef USE_INOTIFY */
 
 /* Use IOS */
 /* #undef USE_IOS */
